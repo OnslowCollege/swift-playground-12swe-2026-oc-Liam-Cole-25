@@ -1,13 +1,13 @@
 
 
 
-print("Enter room length in meters:")
+print("Enter the rooms length in meters:")
 if let input = readLine(),let roomLength = Double(input) {
     print("You entered \(roomLength) meters")
 }
 
-print("Enter room length in meters:")
-if let input = readLine(),let roomLength = Double(input) {
+print("Enter the rooms width in meters:")
+if let input = readLine(),let roomWidth = Double(input) {
     print("You entered \(roomLength) meters")
 }
 
