@@ -1,11 +1,7 @@
-var roomLength = 0
-var roomWidth = 0
-var roomHeight = 0
-
 print("Enter room length:")
-if let input = readLine(),
-roomLength = Double(input) {
-    // store length, do further calculations
+if let input = readLine(),r
+oomLength = Double(input) {
+
 }
 
 
