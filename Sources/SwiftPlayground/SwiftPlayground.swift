@@ -1,15 +1,14 @@
-let Menu = ("""
-==== Egg Shop ====
-1.Add eggs
-2.Sell eggs
-3.Show current stock
-4.Show total eggs sold
-5.Exit
-Choose an option:
-""")
-var cancel = false
+var roomLength = 0
+var roomWidth = 0
+var roomHeight = 0
 
-@MainActor func menuChoice() {
-    while cancel == false {
-    print(Menu)} 
+print("Enter room length:")
+if let input = readLine(),
+var roomLength = Double(input) {
+    // store length, do further calculations
 }
+
+
+
+let roomArea = (roomLength*roomWidth)
+print("The area of the room is \(roomArea)m²")
