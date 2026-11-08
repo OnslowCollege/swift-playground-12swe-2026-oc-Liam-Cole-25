@@ -4,7 +4,7 @@ var roomHeight = 0
 
 print("Enter room length:")
 if let input = readLine(),
-var roomLength = Double(input) {
+roomLength = Double(input) {
     // store length, do further calculations
 }
 
