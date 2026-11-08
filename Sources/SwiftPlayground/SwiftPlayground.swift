@@ -1,10 +1,10 @@
-var roomHeight = 0
-var roomWidth = 0
-var roomLength = 0
+var roomHeight: Double = 0
+var roomWidth: Double = 0
+var roomLength: Double = 0
 
 print("Enter the rooms length in meters:")
-if var input = readLine(), roomLength = Double(input) {
-    print("You entered \(roomLength) meters")
+if var input: Double = readLine(){
+    roomLength = input
 }
 
 print("Enter the rooms width in meters:")
